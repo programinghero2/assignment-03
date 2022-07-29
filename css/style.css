@@ -1,0 +1,52 @@
+.carousel-caption {
+    padding-top: 40px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .carousel-caption h1 {
+      font-size: 22px;
+
+    }
+
+    .carousel-caption {
+      padding-top: 0;
+    }
+
+    .carousel-item {
+      height: 320px;
+    }
+
+    .carousel-item img {
+      height: 320px;
+    }
+
+    .small-device {
+      flex-direction: column;
+    }
+
+    .from-content {
+      flex-direction: column;
+    }
+
+    .small-device1 {
+      width: 300px !important;
+      height: 130px;
+      text-align: center;
+    }
+
+    .form-button {
+      margin-top: 10px !important;
+    }
+
+    .accordion-field {
+      width: 300px !important;
+
+    }
+
+  }
+
+  .details {
+    width: 370px;
+    height: 190px;
+    text-align: center;
+  }

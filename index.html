@@ -10,60 +10,9 @@
     <!-- font awesome icon -->
     <script src="https://kit.fontawesome.com/dd9b82ae26.js" crossorigin="anonymous"></script>
     <!-- font awesome end -->
-  <style>
-    .carousel-caption {
-      padding-top: 40px;
-    }
-
-    @media only screen and (max-width: 576px) {
-      .carousel-caption h1 {
-        font-size: 22px;
-
-      }
-
-      .carousel-caption {
-        padding-top: 0;
-      }
-
-      .carousel-item {
-        height: 320px;
-      }
-
-      .carousel-item img {
-        height: 320px;
-      }
-
-      .small-device {
-        flex-direction: column;
-      }
-
-      .from-content {
-        flex-direction: column;
-      }
-
-      .small-device1 {
-        width: 300px !important;
-        height: 130px;
-        text-align: center;
-      }
-
-      .form-button {
-        margin-top: 10px !important;
-      }
-
-      .accordion-field {
-        width: 300px !important;
-
-      }
-
-    }
-
-    .details {
-      width: 370px;
-      height: 190px;
-      text-align: center;
-    }
-  </style>
+    <!-- stylesheet link start -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- stylesheet lind end -->
 </head>
 
 <body>
@@ -82,20 +31,20 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Courses</a>
+              <a class="nav-link active" href="#courses">Courses</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active" href="#">Form</a>
+              <a class="nav-link active" href="#Form">Form</a>
 
             </li>
             <li class="nav-item">
-              <a class="nav-link active">Success</a>
+              <a class="nav-link active " href="#Accordion">Accordion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active">Brand</a>
+              <a class="nav-link active" href="#Brand">Brand</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active">Footer</a>
+              <a class="nav-link active" href="#Footer">Footer</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -153,8 +102,8 @@
     <!-- slider end -->
   </header>
   <main>
-    <!-- coursed section start -->
-    <section class="container my-5">
+    <!-- courses section start -->
+    <section class="container my-5" id="courses">
       <div class="top-details d-flex flex-column justify-content-center align-items-center  ">
         <div class="details p-3">
           <h1 class="fs-3 ">Discover Our Popular Courses</h1>
@@ -220,7 +169,7 @@
     </section>
     <!-- coursed section end -->
     <!-- Form section start -->
-    <section class="container bg-primary my-5 rounded">
+    <section class="container bg-primary my-5 rounded" id="Form">
       <form class=" d-flex align-items-center mx-5 from-content" style="height: 250px;">
         <div class="form-details small-device1 text-white w-50 ">
           <h1>Ready to join?</h1>
@@ -259,7 +208,7 @@
     </section>
     <!-- Form section end -->
     <!-- Accordion section start -->
-    <section class="container accordion-field w-50 my-5 ">
+    <section class="container accordion-field w-50 my-5" id="Accordion">
       <h1 class="text-center">Frequently Asked Questions</h1>
       <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a
         page when looking at its layout.</p>
@@ -337,7 +286,7 @@
     </section>
     <!-- Accordion section end -->
     <!-- brand section -->
-    <section class="container my-5 	d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+    <section class="container my-5 	d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" id="Brand">
       <h1 class="text-center my-4">Trusted by over 800+ companies</h1>
       <div class="d-flex justify-content-center ">
         <div class="px-3"><img src="images/company/company-1.png" alt=""></div>
@@ -349,7 +298,7 @@
     </section>
     <!-- brand section end -->
   </main>
-  <footer class="container-fluid bg-primary h-100">
+  <footer class="container-fluid bg-primary h-100" id="Footer">
       <div class="flex text-center py-5">
         <h1 class="m-0 text-white">Tech Bongo</h1>
         <p class="m-0 text-light">Office 41, Zawaya Buildin, Ghala Muscat, 
